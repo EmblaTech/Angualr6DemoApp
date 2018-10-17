@@ -1,0 +1,49 @@
+.info,
+.success,
+.warning,
+.error,
+.validation {
+    position: relative;
+    padding: 15px 10px 15px 50px;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+
+    transition:max-height 0.3s ease-out; 
+}
+
+.info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+	background-image: url('../../../assets/images/info.png');
+}
+
+.success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+	background-image: url('../../../assets/images/success.png');
+}
+
+.warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+	background-image: url('../../../assets/images/warning.png');
+}
+
+.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+	background-image: url('../../../assets/images/error.png');
+}
+
+// .validation {
+// 	color: #D63301;
+// 	background-color: #FFCCBA;
+// 	background-image: url(‘validation.png’);
+// }

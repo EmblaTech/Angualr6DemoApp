@@ -1,0 +1,8 @@
+{
+    "production": false,
+    "base_url": "//localhost:50850/",
+    "webappBaseUrl": "//localhost:5500/",
+    "excel_export_url": "//jsontoexcel.microbuild.no/v1/",
+    "version": "1.0.0"
+  }
+  
